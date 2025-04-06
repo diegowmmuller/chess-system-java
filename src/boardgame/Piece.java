@@ -5,7 +5,7 @@ public class Piece {
 	protected Position position;
 	private Board Board;
 	
-	public Piece(boardgame.Board board) {
+	public Piece(Board board) {
 		Board = board;
 		position = null;
 		
